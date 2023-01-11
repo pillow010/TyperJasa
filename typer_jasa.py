@@ -184,6 +184,9 @@ def repeating():
     pyautogui.press('tab')
     pyautogui.press('tab')
 
+def hehe():
+    print('hehe')
+
 
 tombolJaminan = tkinter.Button(main_window, text="JAMINAN", command=jaminan)
 tombolJaminan.grid(row=7, column=0)
